@@ -17,4 +17,12 @@ public class Jugador {
 
     private int id; // Número único identificativo
 
+    public Jugador(String nombre, int votos, int id) {
+        this.nombre = nombre;
+        this.votos = votos;
+        this.id = id;
+    }
+    
+    
+
 }
